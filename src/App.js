@@ -7,6 +7,9 @@ function App() {
       <header>
         <h1>Search For Movies!</h1>
       </header>
+	  <main>
+		  <Search />
+	  </main>
     </div>
   );
 }
