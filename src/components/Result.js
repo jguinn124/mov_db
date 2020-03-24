@@ -4,7 +4,7 @@ import Results from './Results'
 function Result({ result }) {
 	return (
 		<div className="result">
-			<img src={Result.Poster} />
+			<img alt="test" src={result.Poster} />
 			<h3>{result.Title}</h3>
 
 		</div>
